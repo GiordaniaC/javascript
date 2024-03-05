@@ -1,0 +1,20 @@
+var lista = new Array(); 
+
+var lista1 = new Array(4);
+
+var lista2 = ["rossi", "bianchi", "neri"];
+
+//come accedere agli elementi di un array//
+
+console.log(lista2[2]);
+//come cambiare un elemento all' interno di un array//
+lista2[2]="gialli";
+console.log(lista2[2]);
+//come sapere quanti elementi ha l array (conta da zero)//
+console.log(lista2.length);
+
+/*accesso agli elementi tramite ciclo for
+for (var i = 0 < lista2.length; i++);{
+    console.log(lista2[i]);
+}
+*/
